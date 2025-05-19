@@ -34,6 +34,10 @@ export PATH=$PATH:$PS3DEV/spu/bin
 
 sudo apt install gcc-arm-none-eabi gcc-powerpc64-linux-gnu
 
+git clone --recursive https://github.com/zecoxao/BadWDSD_WithREADME
+
+cd BadWDSD_WithREADME
+
 # qcfwgen0.sh <work_dir>
 # work_dir must be in same directory as this file
 
