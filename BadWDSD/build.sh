@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export PICO_SDK_PATH=$PWD/pico_sdk
+export PICO_SDK_PATH=$PWD/../pico-sdk
 
 cd BadWDSD
 
