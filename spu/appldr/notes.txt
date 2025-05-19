@@ -1,0 +1,28 @@
+// loader_start = 0x169e0(0x3ee0)
+// paste hashgen.bin here
+
+// lv2_area_checker = 0x39000
+0x146d8(0x1bd8) = 43 c8 00 52 (ila r82, 0x39000)
+
+// stop 0x69
+0x1479C(0x1c9c) = 00 00 00 69 (stop 0x69)
+
+// Sc_Rx: eid0 = 0x100830006
+// Sc_Rx: buffer_args_effective_addr = 0x8000000010086780
+// Sc_Rx: lv2prot0 = 0x8000000000000000
+// Sc_Rx: lv2prot1 = 0x352230
+// Sc_Rx: lv2hash0 = 0xf13f8865d14703f4
+// Sc_Rx: lv2hash1 = 0x749c5fd9a5fcc6b7
+// Sc_Rx: lv2hash2 = 0x2f5b40a000000000
+
+//Sc_Rx: 0x39010 = 0xf13f8865d14703f4
+//Sc_Rx: 0x39018 = 0x749c5fd9a5fcc6b7
+//Sc_Rx: 0x39020 = 0x2f5b40a000000000
+
+//
+SPU_LS_Write64(spu_id, 0x3A0F0, 0x8000000000000000);
+SPU_LS_Write64(spu_id, 0x3A0F8, 0x352230);
+//
+
+// lv1 0x370F20
+// 80 00 00 00 00 00 00 00 00 00 00 00 00 35 22 30 F1 3F 88 65 D1 47 03 F4 74 9C 5F D9 A5 FC C6 B7 2F 5B 40 A0 00 00 00 00 00 00 00 00 00 00 00 00
