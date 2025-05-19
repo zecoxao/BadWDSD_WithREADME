@@ -3,7 +3,7 @@ BadWDSD With README, Original Credits to Kafuu
 
 ## Pinouts 
 
-# Main Pinout
+# Main Pinout (Red Ones are Important, Black Ones Are Secondary)
 
 ![Main Pinout, Only 4 Pins are important, rest are dipswitches or debug pins for info](https://i.imgur.com/xw6f5FA.jpeg)
 
