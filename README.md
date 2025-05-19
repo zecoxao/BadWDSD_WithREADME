@@ -11,3 +11,13 @@ BadWDSD With README, Original Credits to Kafuu
 
 ![CMD_CLK](https://i.imgur.com/2gyw7on.jpeg)
 ![SC_TX_SC_RX](https://i.imgur.com/wmMCW19.jpeg)
+
+# Instructions
+
+sudo apt install gcc-arm-none-eabi
+
+cd BadWDSD
+
+bash build.sh
+
+cd ..
