@@ -32,10 +32,21 @@ export PATH=$PATH:$PS3DEV/ppu/bin
 
 export PATH=$PATH:$PS3DEV/spu/bin
 
-sudo apt install gcc-arm-none-eabi
+sudo apt install gcc-arm-none-eabi gcc-powerpc64-linux-gnu
 
-cd BadWDSD
+# qcfwgen0.sh <work_dir>
+# work_dir must be in same directory as this file
 
-bash build.sh
+# contents of <work_dir> must be:
 
-cd ..
+## inros.bin (OFW)
+
+## lv0.elf (OFW)
+
+## lv1.elf.orig (OFW)
+# lv1.elf (OFW or patched)
+
+## lv2_kernel.elf.orig (OFW)
+# lv2_kernel.elf (OFW or patched)
+
+## lv2hashgen.elf (no longer needed)
