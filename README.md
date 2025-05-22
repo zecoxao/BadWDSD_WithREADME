@@ -12,6 +12,14 @@ BadWDSD With README, Original Credits to Kafuu
 ![CMD_CLK](https://i.imgur.com/2gyw7on.jpeg)
 ![SC_TX_SC_RX](https://i.imgur.com/wmMCW19.jpeg)
 
+# DipSwitch Pinout Meaning
+
+RECOVERY is for going into recovery. (Literally. Also used for downgrade.)
+
+HOLD is to disable modchip
+
+BANKSEL is to select ros bank. 
+
 # Requirements
 
 PSL1GHT/PS3TOOLCHAIN (see: https://www.mediafire.com/file/i48teby46wtpbg4/ps3dev_27122022.tar.gz/file )
