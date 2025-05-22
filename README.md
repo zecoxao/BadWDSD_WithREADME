@@ -1,6 +1,10 @@
 # BadWDSD_WithREADME
 BadWDSD With README, Original Credits to Kafuu
 
+# Debug UART Speed
+
+576000 
+
 ## Pinouts 
 
 # Main Pinout (Red Ones are Important, Black Ones Are Secondary)
