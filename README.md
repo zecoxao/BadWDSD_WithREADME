@@ -17,6 +17,8 @@ BadWDSD With README, Original Credits to Kafuu
 ![SC_TX_SC_RX](https://i.imgur.com/wmMCW19.jpeg)
 
 # DipSwitch Pinout Meaning
+	
+SC_BYPASS = Pico in passive mode, it won't send sc command by itself (auth/banksel/recovery). And will only listen, waiting for trigger. (sc forwarding still works) This is for debug purpose only.
 
 RECOVERY is for going into recovery. (Literally. Also used for downgrade.)
 
