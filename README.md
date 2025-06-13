@@ -69,3 +69,15 @@ cd BadWDSD_WithREADME
 # lv2_kernel.elf (OFW or patched)
 
 ## lv2hashgen.elf (no longer needed)
+
+# precompiled
+
+https://www.mediafire.com/file/w4txau3a2owtq8p/Stagex_20250529.bin/file
+
+https://www.mediafire.com/file/b01sqkr4tv0g4v3/BadWDSD_SW_x32_20250529.uf2/file
+
+https://www.mediafire.com/file/dnbd9w17730072f/BadWDSD_SW_x32_Zero_20250529.uf2/file
+
+https://www.mediafire.com/file/w7wpjyn4gp5vvbn/qcfw-492-cex_dev_blind_20250530.zip/file
+
+https://www.mediafire.com/file/ojyiyelur0wqgio/qcfw-492-cex_CoreOS_20250530.bin/file
